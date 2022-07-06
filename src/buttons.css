@@ -1,0 +1,19 @@
+.link-button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: auto;
+  padding: 9px 12px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(40, 40, 40);
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+}
+
+.link-button>i {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.75);
+  padding-right: 10px;
+}

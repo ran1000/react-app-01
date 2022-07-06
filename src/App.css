@@ -1,5 +1,14 @@
+* {
+  margin: 0px;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -38,11 +47,97 @@
   }
 }
 
+body {
+  font-family: "Merriweather", "Time New Roman";
+  font-weight: 400;
+  background-color: #282c34;
+}
+
+.title {
+  font-family: "Inter", "Helvetica", "Arial";
+  font-weight: 400;
+}
+
+/* Info Part */
+
 .info {
-  background-color: lightgray;
+  background-color: #F5F5F5;
+  text-align: center;
 }
 
 .prof-img {
-  width: 300px;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12%;
+}
+
+.link-buttons>a {
+  text-decoration: none;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 1.9rem;
+}
+
+.position {
+  margin-top: 5px;
+  color: #061a90;
+  font-weight: 700;
+}
+
+.link-website {
+  margin: 12px 0px;
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+/* About Part */
+
+.about {
+  background-color: #F5F5F5;
+  padding: 0px 35px;
+  padding-top: 20px;
+}
+
+.about>p {
+  margin-top: 8px;
+  color: #4A4E74;
+  font-size: 0.8rem;
+}
+
+/* Interests Part */
+
+.interests {
+  background-color: #F5F5F5;
+  padding: 0px 35px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.interests>p {
+  margin-top: 8px;
+  color: #4A4E74;
+  font-size: 0.8rem;
+}
+
+/* Footer Part */
+
+.footer {
+  background-color: #D5D4D8;
+  padding: 20px 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer>i {
+  font-size: 1.5rem;
+  color: #918E9B;
 }
